@@ -1,11 +1,8 @@
 package pageobjects;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-public class DashboardPage {
-    import org.openqa.selenium.By;
-    import org.openqa.selenium.WebDriver;
 
     public class DashboardPage {
         //1. locators and driver
@@ -24,7 +21,5 @@ public class DashboardPage {
             ldriver.findElement(SEARCH).sendKeys(query);
         }
 
-
-
     }
-}
+

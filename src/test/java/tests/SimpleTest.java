@@ -1,6 +1,4 @@
 package tests;
-
-public class SimpleTest {
 import org.testng.annotations.Test;
 
     public class SimpleTest {
@@ -17,7 +15,8 @@ import org.testng.annotations.Test;
 
         @Test
         public void test3() {
+            System.out.println("a");
             System.out.println("test 3 is running");
         }
+
     }
-}
