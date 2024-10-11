@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/sivij/IdeaProjects/testng.practice">
+    <test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/testng-practice-2024" parallel="methods" thread-count="3">
         <classes>
-            <class name="tests.LoginTest">
-                <methods>
-                    <include name="ValidLoginTest"/>
-                </methods>
-            </class>
-            <class name="tests.SimpleTest">
-                <methods>
-                    <include name="test1"/>
-                    <include name="test2"/>
-                    <include name="test3"/>
-                </methods>
-            </class>
+
+            <class name="tests.attributes.DependencyTest"></class>
+
+
         </classes>
     </test>
 </suite>
