@@ -22,7 +22,7 @@ public class  DataProviderForForgotPassword
         return data;
     }
 
-    @Test(dataProvider = "resetpassword")
+    @Test(dataProvider = "getresetpassword")
 public void loginpage(String username )
     {
     String resetusername ="Stem";
